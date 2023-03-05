@@ -960,8 +960,8 @@ __metadata:
 
 "@types/pmx@file:./src/@types/pmx::locator=pm2-pull%40workspace%3A.":
   version: 0.0.0
-  resolution: "@types/pmx@file:./src/@types/pmx#./src/@types/pmx::hash=4548af&locator=pm2-pull%40workspace%3A."
-  checksum: e09b4d48b9cd9e31945ad6384fb60d35ee6d8ffefe3339097509710bb1eca92ddaf3f82f0691be6474c098fb19618766bde09dc44cc07349f5fdacd055d1df9c
+  resolution: "@types/pmx@file:./src/@types/pmx#./src/@types/pmx::hash=af259b&locator=pm2-pull%40workspace%3A."
+  checksum: f94325b434e38ca629046ee1be8b2d1e21b7eadcfdb8566eb5d4fb31581e6b25502ccbf80b6f2b9c1a8a538953c33c94517aa467bdf4d3b4bcf00cfb04939e2a
   languageName: node
   linkType: hard
 
