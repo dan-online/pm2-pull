@@ -45,8 +45,6 @@ function autoPull(interval: number) {
 					options["uid"] = process.getuid();
 				}
 
-				console.log(options);
-
 				const git = spawn(
 					"git",
 					["pull", versioning.remote, versioning.branch],
