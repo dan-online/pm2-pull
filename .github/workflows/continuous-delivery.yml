@@ -58,8 +58,8 @@ jobs:
           git config --global user.email 'dan@dancodes.online'
 
           git add . &&
-          git commit -m "ci: delivery commit" &&
-          git push origin main &&
+          git commit -m "ci: delivery commit"
+          git push origin main
 
           yarn release-it --ci -i ${{ inputs.version }}
         env:
