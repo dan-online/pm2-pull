@@ -1,4 +1,4 @@
-import { spawn } from "child_process";
+import { spawn, SpawnOptionsWithoutStdio } from "child_process";
 import pm2 from "pm2";
 import pmx from "pmx";
 
@@ -22,25 +22,35 @@ function autoPull(interval: number) {
 			if (!env) continue;
 			// if (env.status !== "online") continue;
 			if (!("versioning" in env)) continue;
-			const versioning = env.versioning as { remote: string; branch: string };
-			if (proc.pid === process.pid) continue;
+			const versioning = (env.versioning as {
+				remote: string;
+				branch: string;
+			}) || { remote: "", branch: "" };
+			if (proc.pid === process.pid || proc.name === "pm2-pull") continue;
 
 			const { code, output, error } = await new Promise<{
 				code: number;
 				output: string;
 				error: string;
 			}>((res) => {
+				const options: SpawnOptionsWithoutStdio = {
+					cwd: env.pm_cwd,
+				};
+
+				if (process.getgid) {
+					options["gid"] = process.getgid();
+				}
+
+				if (process.getuid) {
+					options["uid"] = process.getuid();
+				}
+
+				console.log(options);
+
 				const git = spawn(
 					"git",
-					[
-						"pull",
-						...(versioning.remote && versioning.branch
-							? [versioning.remote, versioning.branch]
-							: []),
-					],
-					{
-						cwd: env.pm_cwd,
-					},
+					["pull", versioning.remote, versioning.branch],
+					options,
 				);
 
 				let output = "";
@@ -103,8 +113,7 @@ pmx.initModule(
 	function (err: Error, conf: { interval?: number }) {
 		if (err) throw err;
 		pm2.connect(function () {
-			console.log("pm2-auto-pull module connected to pm2");
-
+			console.log("pm2-pull module connected to pm2");
 			autoPull(conf.interval || 30000);
 		});
 	},
