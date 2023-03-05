@@ -32,6 +32,6 @@ jobs:
       - name: Install Dependencies
         run: yarn --immutable
       - name: Run Rome
-        run: yarn rome ci
+        run: yarn rome ci src/index.ts
       - name: Build Code
         run: yarn build
