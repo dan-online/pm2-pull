@@ -3,10 +3,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-<br />
 <div align="center">
   <h3 align="center">PM2-Pull</h3>
-
   <p align="center">
     PM2 module to automatically pull the git repository of running apps.
     <br />
