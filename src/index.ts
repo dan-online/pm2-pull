@@ -25,9 +25,9 @@ function autoPull(interval: number) {
 			const versioning = (env.versioning as {
 				remote: string;
 				branch: string;
-      }) || { remote: "", branch: "" };
-      
-      if(versioning.remote === "" || versioning.branch === "") continue;
+			}) || { remote: "", branch: "" };
+
+			if (versioning.remote === "" || versioning.branch === "") continue;
 			if (proc.pid === process.pid || proc.name === "pm2-pull") continue;
 
 			const { code, output, error } = await new Promise<{
