@@ -70,7 +70,7 @@ function autoPull(interval: number) {
 			});
 
 			if (code === 0) {
-				if (output.includes("Already up to date")) continue;
+				if (output.includes("up to date")) continue;
 				console.log(
 					"Updated",
 					`${proc.name}:${output
