@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "^17.6.1",
     "@favware/npm-deprecate": "^1.0.7",
     "@favware/rollup-type-bundler": "^2.0.0",
-    "@sapphire/ts-config": "^3.3.4",
+    "@sapphire/ts-config": "^4.0.0",
     "@types/node": "^18.15.11",
     "@types/pmx": "./src/@types/pmx",
     "husky": "^8.0.3",
