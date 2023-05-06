@@ -1,4 +1,4 @@
-import { spawn, SpawnOptionsWithoutStdio } from "child_process";
+import { SpawnOptionsWithoutStdio, execSync, spawn } from "child_process";
 import pm2 from "pm2";
 import pmx from "pmx";
 
@@ -71,13 +71,15 @@ function autoPull(interval: number) {
 
 			if (code === 0) {
 				if (output.includes("up to date")) continue;
-				console.log(
-					"Updated",
-					`${proc.name}:${output
-						.split("\n")
-						.filter((x) => x.length > 0)
-						.at(-1)}`,
-				);
+				// git log -1 --pretty=%B
+				const lastCommitMessage = execSync("git log -1 --pretty=%B", {
+					cwd: env.pm_cwd,
+				})
+					.toString()
+					.trim()
+					.split("\n")[0];
+
+				console.log("Updated", `${proc.name}: ${lastCommitMessage}`);
 				updates.inc(1);
 			} else {
 				console.error(`Failed to update ${proc.name}: ${error}`);
