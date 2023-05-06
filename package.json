@@ -1,6 +1,6 @@
 {
   "name": "pm2-pull",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "PM2 module to automatically pull the git repository of running apps.",
   "author": "DanCodes <dan@dancodes.online> (https://dancodes.online/)",
   "license": "Apache-2.0",
