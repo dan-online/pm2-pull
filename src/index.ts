@@ -82,7 +82,11 @@ function autoPull(interval: number) {
 				console.log("Updated", `${proc.name}: ${lastCommitMessage}`);
 				updates.inc(1);
 			} else {
-				console.error(`Failed to update ${proc.name}: ${error}`);
+				console.error(
+					`Failed to update ${proc.name}: ${
+						error.split("\n").filter((x) => x.length > 0)[0]
+					}`,
+				);
 				fails.inc(1);
 			}
 		}
