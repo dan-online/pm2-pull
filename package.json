@@ -29,15 +29,15 @@
     "@favware/npm-deprecate": "^1.0.7",
     "@favware/rollup-type-bundler": "^2.0.0",
     "@sapphire/ts-config": "^4.0.0",
-    "@types/node": "^18.16.18",
+    "@types/node": "^18.16.19",
     "@types/pmx": "./src/@types/pmx",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
+    "lint-staged": "^13.2.3",
     "release-it": "^15.11.0",
     "rimraf": "^5.0.1",
     "rome": "^12.1.3",
-    "tsup": "^7.0.0",
-    "typescript": "^5.1.3"
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
   },
   "apps": [
     {
