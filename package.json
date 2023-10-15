@@ -32,7 +32,7 @@
     "@types/node": "^18.18.5",
     "@types/pmx": "./src/@types/pmx",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
+    "lint-staged": "^15.0.0",
     "release-it": "^16.2.1",
     "rimraf": "^5.0.5",
     "rome": "^12.1.3",
