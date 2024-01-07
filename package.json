@@ -24,8 +24,8 @@
     "pmx": "^1.6.7"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.3",
-    "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "@favware/npm-deprecate": "^1.0.7",
     "@favware/rollup-type-bundler": "^3.2.1",
     "@sapphire/ts-config": "^5.0.0",
