@@ -1117,12 +1117,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.9":
-  version: 20.11.9
-  resolution: "@types/node@npm:20.11.9"
+"@types/node@npm:^20.11.16":
+  version: 20.11.16
+  resolution: "@types/node@npm:20.11.16"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 14a11ac2e0fc97b4d35c20fee65393fcd5a9adc55bf8317a5000d35d94fa5410469e8f99c3b765643b1a5e49288c8a18422493eb177a156e7bdb4b2c95e40183
+  checksum: 51f0831c1219bf4698e7430aeb9892237bd851deeb25ce23c5bb0ceefcc77c3b114e48f4e98d9fc26def5a87ba9d8079f0281dd37bee691140a93f133812c152
   languageName: node
   linkType: hard
 
@@ -3781,12 +3781,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^9.0.6":
-  version: 9.0.6
-  resolution: "husky@npm:9.0.6"
+"husky@npm:^9.0.10":
+  version: 9.0.10
+  resolution: "husky@npm:9.0.10"
   bin:
-    husky: bin.js
-  checksum: e198c90a59d460cf860c33e0a4c3927ecfb645d4fd4c2de3fbcd5fb56b858a923af452508d549f6ed020bb48de08290912cd77c006dd2a83e551c24c17340d5b
+    husky: bin.mjs
+  checksum: 55f4b6db6706ff0bc181607d6a64f55310cbb18b4d7db2a5b85608c87a80abafc14ac3a8c4d0b44d6272f4a62d4c2d3d5491d6a13e2cc7ac4895309e5e5f0ec2
   languageName: node
   linkType: hard
 
@@ -4618,29 +4618,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^15.2.0":
-  version: 15.2.0
-  resolution: "lint-staged@npm:15.2.0"
+"lint-staged@npm:^15.2.1":
+  version: 15.2.1
+  resolution: "lint-staged@npm:15.2.1"
   dependencies:
     chalk: 5.3.0
     commander: 11.1.0
     debug: 4.3.4
     execa: 8.0.1
     lilconfig: 3.0.0
-    listr2: 8.0.0
+    listr2: 8.0.1
     micromatch: 4.0.5
     pidtree: 0.6.0
     string-argv: 0.3.2
     yaml: 2.3.4
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 4fb178b8d3ff454f7874697dfbd41017630f61a06296d12ac9dfd578d078c70aff7108b67fab38af94896ef2740a1e7541c1512d0d3c688ed90e6c3af3530f0d
+  checksum: d2b0361b311cb3384e58a5d4bfd5d34e6ff6ad41e5ea5dcc87c65379ea6e280c84f0a037df147355963dcf4d3dc1487795e3132c38e1bc5511b25889f405e189
   languageName: node
   linkType: hard
 
-"listr2@npm:8.0.0":
-  version: 8.0.0
-  resolution: "listr2@npm:8.0.0"
+"listr2@npm:8.0.1":
+  version: 8.0.1
+  resolution: "listr2@npm:8.0.1"
   dependencies:
     cli-truncate: ^4.0.0
     colorette: ^2.0.20
@@ -4648,7 +4648,7 @@ __metadata:
     log-update: ^6.0.0
     rfdc: ^1.3.0
     wrap-ansi: ^9.0.0
-  checksum: 5cb110a710d14488c71d2207fc5141256abb1f21cbe5ebc12177ae640f94e040a1ef8c031b70ff9f24c4a8fa57c0825a54b534e52bdfaffc122a81082faae8ed
+  checksum: 4dfeabfa037b3981d0edbf30789971ba727ba4cfcc13051ceaff7a1b3d26509ef2d946015c65c600b0775ec9d1ef58a81937d94c9c03de464b654f429cc7c3ed
   languageName: node
   linkType: hard
 
@@ -5967,10 +5967,10 @@ __metadata:
     "@favware/npm-deprecate": ^1.0.7
     "@favware/rollup-type-bundler": ^3.3.0
     "@sapphire/ts-config": ^5.0.0
-    "@types/node": ^20.11.9
+    "@types/node": ^20.11.16
     "@types/pmx": ./src/@types/pmx
-    husky: ^9.0.6
-    lint-staged: ^15.2.0
+    husky: ^9.0.10
+    lint-staged: ^15.2.1
     pm2: ^5.3.1
     pmx: ^1.6.7
     release-it: ^17.0.3
