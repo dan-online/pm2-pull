@@ -1118,12 +1118,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.19":
-  version: 20.11.19
-  resolution: "@types/node@npm:20.11.19"
+"@types/node@npm:^20.11.20":
+  version: 20.11.20
+  resolution: "@types/node@npm:20.11.20"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 259d16643ba611ade617a8212e594a3ac014727457507389bbf7213971346ab052d870f1e6e2df0afd0876ecd7874f578bccb130be01e069263cfc7136ddc0c1
+  checksum: 79d339622fed1c0e64297c8b9f558815a91edb9fea3acb69c1201b919d450e12915cf98b1a96b2d2c121bf86f30b62b6de3708f8894c5319f8dfb3a991e3ccdd
   languageName: node
   linkType: hard
 
@@ -6058,13 +6058,13 @@ __metadata:
     "@favware/npm-deprecate": ^1.0.7
     "@favware/rollup-type-bundler": ^3.3.0
     "@sapphire/ts-config": ^5.0.0
-    "@types/node": ^20.11.19
+    "@types/node": ^20.11.20
     "@types/pmx": ./src/@types/pmx
     husky: ^9.0.11
     lint-staged: ^15.2.2
     pm2: ^5.3.1
     pmx: ^1.6.7
-    release-it: ^17.0.5
+    release-it: ^17.1.1
     rimraf: ^5.0.5
     rome: ^12.1.3
     tsup: ^8.0.2
@@ -6455,9 +6455,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^17.0.5":
-  version: 17.0.5
-  resolution: "release-it@npm:17.0.5"
+"release-it@npm:^17.1.1":
+  version: 17.1.1
+  resolution: "release-it@npm:17.1.1"
   dependencies:
     "@iarna/toml": 2.2.5
     "@octokit/rest": 20.0.2
@@ -6488,7 +6488,7 @@ __metadata:
     yargs-parser: 21.1.1
   bin:
     release-it: bin/release-it.js
-  checksum: 63ba0a1c4fe6fba8174b06e0320f3f52585c58bf083741acd98f0bf971f41d1b1e108f3bfbadeb52fbc6515d9e293de5b837680fb97ee23d053f2f400cd2d02a
+  checksum: 12ef90859e5ec39628e8160621461a1ef3fac72396c06403253e1a0aa3ee81adf0f1a8598659eff8eef41ebc47a3da0ee910fd7fb5b8771193259625686c9e9e
   languageName: node
   linkType: hard
 
