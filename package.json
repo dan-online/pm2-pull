@@ -63,5 +63,5 @@
   "lint-staged": {
     "*.ts": "rome check"
   },
-  "packageManager": "yarn@3.8.3"
+  "packageManager": "yarn@3.8.4"
 }
