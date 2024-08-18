@@ -29,7 +29,7 @@
     "@favware/npm-deprecate": "^1.0.7",
     "@favware/rollup-type-bundler": "^3.3.0",
     "@sapphire/ts-config": "^5.0.1",
-    "@types/node": "^20.15.0",
+    "@types/node": "^20.16.0",
     "@types/pmx": "./src/@types/pmx",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.9",
