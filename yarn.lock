@@ -600,9 +600,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/prompts@npm:^7.4.1":
-  version: 7.4.1
-  resolution: "@inquirer/prompts@npm:7.4.1"
+"@inquirer/prompts@npm:^7.5.0":
+  version: 7.5.0
+  resolution: "@inquirer/prompts@npm:7.5.0"
   dependencies:
     "@inquirer/checkbox": ^4.1.5
     "@inquirer/confirm": ^5.1.9
@@ -611,21 +611,21 @@ __metadata:
     "@inquirer/input": ^4.1.9
     "@inquirer/number": ^3.0.12
     "@inquirer/password": ^4.0.12
-    "@inquirer/rawlist": ^4.0.12
+    "@inquirer/rawlist": ^4.1.0
     "@inquirer/search": ^3.0.12
-    "@inquirer/select": ^4.1.1
+    "@inquirer/select": ^4.2.0
   peerDependencies:
     "@types/node": ">=18"
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: ae57a04e6fb88a52e37ba16dcdf91e6c14f9b178bfc91e966fc5aaee26632e83eaabc22169be002e8c5cd9928941da31c1def27c7ff86787411c5f9227b8c5b7
+  checksum: 85a2f935af0203304dcde4b77df1a437cc9df6f8ba9d4420f5c4ab3c5119feb62aa378495f2d88d2bdebf131630a6ac2821154f4b41a3b507e9cb1a5a46ff087
   languageName: node
   linkType: hard
 
-"@inquirer/rawlist@npm:^4.0.12":
-  version: 4.0.12
-  resolution: "@inquirer/rawlist@npm:4.0.12"
+"@inquirer/rawlist@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@inquirer/rawlist@npm:4.1.0"
   dependencies:
     "@inquirer/core": ^10.1.10
     "@inquirer/type": ^3.0.6
@@ -635,7 +635,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: c07ce3530a5050ce1cbd042366e7cb9024c226d1b85e4511d6c3c20c2bef9c5628050f87410eba9094c2f055f2231d86837e462d0326a70348976bda40dc9783
+  checksum: 154351b0dff42f973913d773c2be2d510a301d88b06e9745e91eb3a2243d24c1cf158c5ee203bad722b85d1d6c5003899b1ae0dae5ba0f34aa5beb4f98e0f39b
   languageName: node
   linkType: hard
 
@@ -656,9 +656,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/select@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "@inquirer/select@npm:4.1.1"
+"@inquirer/select@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "@inquirer/select@npm:4.2.0"
   dependencies:
     "@inquirer/core": ^10.1.10
     "@inquirer/figures": ^1.0.11
@@ -670,7 +670,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: de2598e9edd31f092f56c94761725374a7e8cdebd0d5cc87d9240731d856c8695b48f53339166171cd2af636660995d79690c560510a4b90b3a6ac1cc74a72b0
+  checksum: b254e289e656bee39a62d12bb0ae93d5fdae989679504f0693bafc1ac9f1980e2ce06f994b4d029aa0ec523a890e25a504c4a944db51dae070fef5eab55c90e1
   languageName: node
   linkType: hard
 
@@ -949,10 +949,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@phun-ky/typeof@npm:1.2.5":
-  version: 1.2.5
-  resolution: "@phun-ky/typeof@npm:1.2.5"
-  checksum: 7871a430ff4ff31e08ad909dff65a83d4b4c23d8d80129df6af429a6377bc406557d1ad241a44d2fcadfdf42b7e52ba094769cefe6a5cb92da61d04e880a0611
+"@phun-ky/typeof@npm:1.2.8":
+  version: 1.2.8
+  resolution: "@phun-ky/typeof@npm:1.2.8"
+  checksum: c4f6b44473bdbfad6bf12e1aecbe8fea8bca28a0785acbfbafe47d9026d16f9c2e827d8c89767853f77ba1fe126822a92fcb9d895357c146cd78669e5d3f440b
   languageName: node
   linkType: hard
 
@@ -2797,6 +2797,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fdir@npm:^6.4.4":
+  version: 6.4.4
+  resolution: "fdir@npm:6.4.4"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: 79043610236579ffbd0647c508b43bd030a2d034a17c43cf96813a00e8e92e51acdb115c6ddecef3b5812cc2692b976155b4f6413e51e3761f1e772fa019a321
+  languageName: node
+  linkType: hard
+
 "fill-range@npm:^7.0.1":
   version: 7.0.1
   resolution: "fill-range@npm:7.0.1"
@@ -3330,12 +3342,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:12.5.2":
-  version: 12.5.2
-  resolution: "inquirer@npm:12.5.2"
+"inquirer@npm:12.6.0":
+  version: 12.6.0
+  resolution: "inquirer@npm:12.6.0"
   dependencies:
     "@inquirer/core": ^10.1.10
-    "@inquirer/prompts": ^7.4.1
+    "@inquirer/prompts": ^7.5.0
     "@inquirer/type": ^3.0.6
     ansi-escapes: ^4.3.2
     mute-stream: ^2.0.0
@@ -3346,7 +3358,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 590572e377fb23c4a33534b004b41fc2c64439e8af66e2368461e7c3bab4352fb76b81576ba6fe9a58d823efdbf821e12a14eb8b1e8f0f91203e735eeddc3c4c
+  checksum: 1d58c3f0f697f1c8f076a0ebdc2a2875f6b43de127e9f6ad138f09ab556b82a5197333a3123dda044823a9b6b196aa46aa2ed79c7c4bccb2993302107e5e6a5c
   languageName: node
   linkType: hard
 
@@ -4461,15 +4473,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open@npm:10.1.1":
-  version: 10.1.1
-  resolution: "open@npm:10.1.1"
+"open@npm:10.1.2":
+  version: 10.1.2
+  resolution: "open@npm:10.1.2"
   dependencies:
     default-browser: ^5.2.1
     define-lazy-prop: ^3.0.0
     is-inside-container: ^1.0.0
     is-wsl: ^3.1.0
-  checksum: a3ad8460a7066d400be1697e568ffbd7ed85790f93e846f0674d783a71bf654b8aa648dd9663865294cfef238fbd5f2026c4580b61f3507d6c646b8e5e5f0a53
+  checksum: cb40d9786e8c679a1c647c62ad3642bbf1a8cc986c3ec970e99ed13d279c93328ea46bf756db64ea465d2d707815d4e792e7ba906830c3439cc8577cdefb8610
   languageName: node
   linkType: hard
 
@@ -4827,7 +4839,7 @@ __metadata:
     lint-staged: ^15.5.1
     pm2: ^6.0.5
     pmx: ^1.6.7
-    release-it: ^19.0.1
+    release-it: ^19.0.2
     rimraf: ^6.0.1
     rome: ^12.1.3
     tsup: ^8.4.0
@@ -5062,38 +5074,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^19.0.1":
-  version: 19.0.1
-  resolution: "release-it@npm:19.0.1"
+"release-it@npm:^19.0.2":
+  version: 19.0.2
+  resolution: "release-it@npm:19.0.2"
   dependencies:
     "@nodeutils/defaults-deep": 1.1.0
     "@octokit/rest": 21.1.1
-    "@phun-ky/typeof": 1.2.5
+    "@phun-ky/typeof": 1.2.8
     async-retry: 1.3.3
     c12: 3.0.3
     ci-info: ^4.2.0
     eta: 3.5.0
     git-url-parse: 16.1.0
-    inquirer: 12.5.2
+    inquirer: 12.6.0
     issue-parser: 7.0.1
     lodash.get: 4.4.2
     lodash.merge: 4.6.2
     mime-types: 3.0.1
     new-github-release-url: 2.0.0
-    open: 10.1.1
+    open: 10.1.2
     ora: 8.2.0
     os-name: 6.0.0
     proxy-agent: 6.5.0
     semver: 7.7.1
     tinyexec: 1.0.1
-    tinyglobby: 0.2.12
+    tinyglobby: 0.2.13
     undici: 6.21.2
     url-join: 5.0.0
     wildcard-match: 5.1.4
     yargs-parser: 21.1.1
   bin:
     release-it: bin/release-it.js
-  checksum: 00ebc3343a8e73186f881b686c2db10946ad07a963c1650070b8d0e4ac2e480d7b764038f791158747657296c47f49f6a1efcdd0f4f5341dfc47c7e744804e55
+  checksum: dde54b0f43bf23df5ad69c34bd4f1d8bee7f0d61dfa73b49015ade2627c90b71758ca3206239263478525bad5165e8171c80eb5e53575555cc5c5031d068fde8
   languageName: node
   linkType: hard
 
@@ -5948,7 +5960,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:0.2.12, tinyglobby@npm:^0.2.11":
+"tinyglobby@npm:0.2.13":
+  version: 0.2.13
+  resolution: "tinyglobby@npm:0.2.13"
+  dependencies:
+    fdir: ^6.4.4
+    picomatch: ^4.0.2
+  checksum: 3a2e87a2518cb3616057b0aa58be4f17771ae78c6890556516ae1e631f8ce4cfee1ba1dcb62fcc54a64e2bdd6c3104f4f3d021e1a3e3f8fb0875bca380b913e5
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:^0.2.11":
   version: 0.2.12
   resolution: "tinyglobby@npm:0.2.12"
   dependencies:
