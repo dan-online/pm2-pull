@@ -20,7 +20,7 @@
     "husky": "husky install"
   },
   "dependencies": {
-    "pm2": "^6.0.5",
+    "pm2": "^6.0.6",
     "pmx": "^1.6.7"
   },
   "devDependencies": {
