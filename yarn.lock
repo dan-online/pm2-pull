@@ -1406,12 +1406,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.15.30":
-  version: 22.15.30
-  resolution: "@types/node@npm:22.15.30"
+"@types/node@npm:^22.15.32":
+  version: 22.15.32
+  resolution: "@types/node@npm:22.15.32"
   dependencies:
     undici-types: ~6.21.0
-  checksum: c380ad176575dc847a119e63afe457f3481c0095ef1720605d42b3133cac1c5980179643ce67c9a314c83b9a45f2b17bde5f15b29d8aa1d17e0a43318273829b
+  checksum: 0e26f227a91e0b50dc79d5b7ad2705060598da4a418ea1c612609e6a72fcdbcbcc5b285214619973dc509aeec9cdff5ca016e642efd09d572b877151e591c01a
   languageName: node
   linkType: hard
 
@@ -3752,9 +3752,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^16.1.0":
-  version: 16.1.0
-  resolution: "lint-staged@npm:16.1.0"
+"lint-staged@npm:^16.1.2":
+  version: 16.1.2
+  resolution: "lint-staged@npm:16.1.2"
   dependencies:
     chalk: ^5.4.1
     commander: ^14.0.0
@@ -3768,7 +3768,7 @@ __metadata:
     yaml: ^2.8.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: e882bfee0f0ddaf4af4d58925af2591ac994a805242fc73205aa950201c3d094de82927d12d766f9d1173917b2e5e71c3ce20b69a0a8d214b22a2264bab5355f
+  checksum: e91a8a8d86c09bf6ec48e8c407595f801535c38c7f6a9bba3c45f71cb312c76f21e0151b439535bdc8f1c45462d887b68c99b75b00b48b2be954fd06064db780
   languageName: node
   linkType: hard
 
@@ -4909,10 +4909,10 @@ __metadata:
     "@favware/npm-deprecate": ^2.0.0
     "@favware/rollup-type-bundler": ^4.0.0
     "@sapphire/ts-config": ^5.0.1
-    "@types/node": ^22.15.30
+    "@types/node": ^22.15.32
     "@types/pmx": ./src/@types/pmx
     husky: ^9.1.7
-    lint-staged: ^16.1.0
+    lint-staged: ^16.1.2
     pm2: ^6.0.8
     pmx: ^1.6.7
     release-it: ^19.0.3
