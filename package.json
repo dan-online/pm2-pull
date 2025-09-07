@@ -20,8 +20,8 @@
     "husky": "husky install"
   },
   "dependencies": {
-    "pm2": "^6.0.8",
-    "pmx": "^1.6.7"
+    "pm2": "^6.0.10",
+    "pmx": "^1.6.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
