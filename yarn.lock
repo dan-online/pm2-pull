@@ -1453,12 +1453,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.18.8":
-  version: 22.18.8
-  resolution: "@types/node@npm:22.18.8"
+"@types/node@npm:^22.18.10":
+  version: 22.18.10
+  resolution: "@types/node@npm:22.18.10"
   dependencies:
     undici-types: ~6.21.0
-  checksum: b096c88c685bd9d092b494a01f12b5af3bd4b3046552c112113d1e65f2b60b42e68cd94c4036ddd1a4a6ea66e03d8639855e8d82484ac37a5787555fab696f82
+  checksum: 3c6e12b5b6cec219c5903f8318ced2c4a621c08aeec55908925d5ad14408b48e3d1578b5d920964a2485521764ddc1622ed7c2048a803bd2856e991f4c4f7813
   languageName: node
   linkType: hard
 
@@ -3729,20 +3729,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^16.2.3":
-  version: 16.2.3
-  resolution: "lint-staged@npm:16.2.3"
+"lint-staged@npm:^16.2.4":
+  version: 16.2.4
+  resolution: "lint-staged@npm:16.2.4"
   dependencies:
     commander: ^14.0.1
     listr2: ^9.0.4
     micromatch: ^4.0.8
-    nano-spawn: ^1.0.3
+    nano-spawn: ^2.0.0
     pidtree: ^0.6.0
     string-argv: ^0.3.2
     yaml: ^2.8.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 61b2f8c4fa199f7da6516f927115146bbb25c511760b85fc514aadbecec7e2346bddb4317c41145d31357bde29f23abea37b820144c93b32d2b6bae236829108
+  checksum: e09497196df24f3d9c134ea81e2e470f455c461925a6fa9d72fa409278ddb7d6c8506797268df497f3e908629fd275ef171361d8e0d6581efb2a7131bb7c0a26
   languageName: node
   linkType: hard
 
@@ -4284,10 +4284,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nano-spawn@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "nano-spawn@npm:1.0.3"
-  checksum: 5b3ec4b459e9f015bef29c4fd69736567b775d8744faf6ab2b54907043839eaf15caf8e9f3180de06321224c47d8f67a2ba541c83ff2127af0d7353aa13e8ab2
+"nano-spawn@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "nano-spawn@npm:2.0.0"
+  checksum: 48223f6f5b2ab3f7562d0e6e85abb9b9c4ee52f5c096bd50012c0776664ddc63cd2602c9e4dc3d6cd47ae5189e9c71b51afb2d44b2746d8ca80cb52fc8013904
   languageName: node
   linkType: hard
 
@@ -4859,10 +4859,10 @@ __metadata:
     "@favware/npm-deprecate": ^2.0.0
     "@favware/rollup-type-bundler": ^4.0.0
     "@sapphire/ts-config": ^5.0.1
-    "@types/node": ^22.18.8
+    "@types/node": ^22.18.10
     "@types/pmx": ./src/@types/pmx
     husky: ^9.1.7
-    lint-staged: ^16.2.3
+    lint-staged: ^16.2.4
     pm2: ^6.0.13
     pmx: ^1.6.8
     release-it: ^19.0.5
