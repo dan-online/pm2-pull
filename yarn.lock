@@ -1444,12 +1444,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.10.7":
-  version: 24.10.7
-  resolution: "@types/node@npm:24.10.7"
+"@types/node@npm:^24.10.9":
+  version: 24.10.9
+  resolution: "@types/node@npm:24.10.9"
   dependencies:
     undici-types: ~7.16.0
-  checksum: f365a2aaaa467f8669f67ab291bbf2a5137ca399a1acdc13823ba4079e7fc09a20e2fc2f55985acdbaecc196d206f0918dbbd814028edf02094826edb987a11a
+  checksum: ee6e0a13b286c4cec32c29e2a7d862345660f6720f805315733f7802f6ece45d23fa0d4baee56276e48e62c4b7c3d335e5f40955179afc383a26b91bcb88293a
   languageName: node
   linkType: hard
 
@@ -4862,7 +4862,7 @@ __metadata:
     "@favware/npm-deprecate": ^2.0.0
     "@favware/rollup-type-bundler": ^4.0.0
     "@sapphire/ts-config": ^5.0.3
-    "@types/node": ^24.10.7
+    "@types/node": ^24.10.9
     "@types/pmx": ./src/@types/pmx
     husky: ^9.1.7
     lint-staged: ^16.2.7
