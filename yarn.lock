@@ -4868,7 +4868,7 @@ __metadata:
     lint-staged: ^16.2.7
     pm2: ^6.0.14
     pmx: ^1.6.8
-    release-it: ^19.2.3
+    release-it: ^19.2.4
     rimraf: ^6.1.2
     rome: ^12.1.3
     tsup: ^8.5.1
@@ -5109,9 +5109,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "release-it@npm:19.2.3"
+"release-it@npm:^19.2.4":
+  version: 19.2.4
+  resolution: "release-it@npm:19.2.4"
   dependencies:
     "@nodeutils/defaults-deep": 1.1.0
     "@octokit/rest": 22.0.1
@@ -5132,13 +5132,13 @@ __metadata:
     proxy-agent: 6.5.0
     semver: 7.7.3
     tinyglobby: 0.2.15
-    undici: 6.22.0
+    undici: 6.23.0
     url-join: 5.0.0
     wildcard-match: 5.1.4
     yargs-parser: 21.1.1
   bin:
     release-it: bin/release-it.js
-  checksum: c98ba5ff9006aa7329b3df3cff4035ed0d54f5d7a31007de8de8f08fee71a5d9a97888fdce50ea2ff807c8a81ebc9347127647187d91dcc64040de07048db383
+  checksum: d225b20e99c20b183261e0ca19b8c8de9e631f87f4a5e35a5cbd2683f6b9d4ad332c34f3f412728a6fdd74b0644fc8566ce5b449718b333f196de686d267cde5
   languageName: node
   linkType: hard
 
@@ -6210,10 +6210,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:6.22.0":
-  version: 6.22.0
-  resolution: "undici@npm:6.22.0"
-  checksum: ec2d846cb7d360fd45c2e3848bbdadbe086c167be08dd578ed376c70afb2b977950b4c4919c18da0610c61a1ef53c079086d09390a96de2b62bc1fa16d7765f8
+"undici@npm:6.23.0":
+  version: 6.23.0
+  resolution: "undici@npm:6.23.0"
+  checksum: f0953920330375e76d1614381af07da9d7c21ad3244d0785b3f7bd4072635c20a1f432ef3a129baa3e4a92278ce32e9ea2ca8b5f0e0554a5739222af332c08fe
   languageName: node
   linkType: hard
 
