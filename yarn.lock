@@ -1387,12 +1387,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.12.4":
-  version: 24.12.4
-  resolution: "@types/node@npm:24.12.4"
+"@types/node@npm:^24.13.1":
+  version: 24.13.1
+  resolution: "@types/node@npm:24.13.1"
   dependencies:
-    undici-types: ~7.16.0
-  checksum: 1fbacea2224e98aedcac45df9d71ccf3af138707b131c33b8c6b1e65fab3e41992d826eb92e229a52408ef0983f24f6c711cf69054274001732677ce5559d934
+    undici-types: ~7.18.0
+  checksum: 3baef0e2d2ff1eb1f65d14975d539bbf2a0ec35d019efbbe5befdec28c45c572e992367ff0f08b56c7d231f86ade96adf303139ae6492ae6c550690e38792bad
   languageName: node
   linkType: hard
 
@@ -3604,21 +3604,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^17.0.6":
-  version: 17.0.6
-  resolution: "lint-staged@npm:17.0.6"
+"lint-staged@npm:^17.0.7":
+  version: 17.0.7
+  resolution: "lint-staged@npm:17.0.7"
   dependencies:
     listr2: ^10.2.1
     picomatch: ^4.0.4
     string-argv: ^0.3.2
-    tinyexec: 1.2.2
+    tinyexec: ^1.2.4
     yaml: ^2.9.0
   dependenciesMeta:
     yaml:
       optional: true
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 26e253c728d8f51f3cf983871fe3758a7e009fcd9397f0fca0cab17cc18afc5aece3ca745bdd63d50a57327ff12d59ac9b11db8c2723b198154f3dbd8cad4baa
+  checksum: 96d2fc2ff0a7fea2096644ae60e4576758f4d5c9d44432e1cfbf27f0ad634fa4c1fa82ae91101ef1ada062874d569b7c6bb0c3811db3055eee762914700fd356
   languageName: node
   linkType: hard
 
@@ -4542,10 +4542,10 @@ __metadata:
     "@favware/npm-deprecate": ^2.0.0
     "@favware/rollup-type-bundler": ^4.0.0
     "@sapphire/ts-config": ^5.0.3
-    "@types/node": ^24.12.4
+    "@types/node": ^24.13.1
     "@types/pmx": ./src/@types/pmx
     husky: ^9.1.7
-    lint-staged: ^17.0.6
+    lint-staged: ^17.0.7
     pm2: ^7.0.1
     pmx: ^1.6.8
     release-it: ^20.2.0
@@ -5558,13 +5558,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyexec@npm:1.2.2":
-  version: 1.2.2
-  resolution: "tinyexec@npm:1.2.2"
-  checksum: 8d7cbfc8cb09087905d021063ef50182ddf2a9b3184ffe1f5b000056721b6bcc34d3f7e38eae0abfa83d31e92948cb0825a4994ead3fe2db3ff7656baeff3cb3
-  languageName: node
-  linkType: hard
-
 "tinyexec@npm:^0.3.2":
   version: 0.3.2
   resolution: "tinyexec@npm:0.3.2"
@@ -5576,6 +5569,13 @@ __metadata:
   version: 1.0.1
   resolution: "tinyexec@npm:1.0.1"
   checksum: 40f5219abf891884863b085ebe5e8c8bf95bde802f6480f279588b355835ad1604fa01eada2afe90063b48b53cd4b0be5c37393980e23f06fd10689d92fb9586
+  languageName: node
+  linkType: hard
+
+"tinyexec@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "tinyexec@npm:1.2.4"
+  checksum: 3004b0f784c17d35a87251059dd6d81685848472a21a8c258f7b6c0433a25e37552f3955b0844f422895711fae24f44a8b1165597b8b0fe3fe8d0a25264fe9d9
   languageName: node
   linkType: hard
 
@@ -5770,10 +5770,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~7.16.0":
-  version: 7.16.0
-  resolution: "undici-types@npm:7.16.0"
-  checksum: 1ef68fc6c5bad200c8b6f17de8e5bc5cfdcadc164ba8d7208cd087cfa8583d922d8316a7fd76c9a658c22b4123d3ff847429185094484fbc65377d695c905857
+"undici-types@npm:~7.18.0":
+  version: 7.18.2
+  resolution: "undici-types@npm:7.18.2"
+  checksum: 23da306c8366574adec305b06a8519ab5c7d09e3f5d16c1a98709a34fae17da09ec95198f30f86c00055e02efa8bfcc843e84e8aebeb9b8d6bb3e06afccae07a
   languageName: node
   linkType: hard
 
