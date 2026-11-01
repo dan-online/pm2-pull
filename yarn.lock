@@ -4285,7 +4285,7 @@ __metadata:
     lint-staged: ^17.6.0
     pm2: ^7.1.1
     pmx: ^1.6.8
-    release-it: ^21.1.1
+    release-it: ^21.1.2
     rimraf: ^6.1.3
     rome: ^12.1.3
     tsup: ^9.0.0
@@ -4508,9 +4508,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^21.1.1":
-  version: 21.1.1
-  resolution: "release-it@npm:21.1.1"
+"release-it@npm:^21.1.2":
+  version: 21.1.2
+  resolution: "release-it@npm:21.1.2"
   dependencies:
     "@inquirer/prompts": 8.7.3
     "@octokit/rest": 22.0.1
@@ -4530,13 +4530,13 @@ __metadata:
     os-name: 7.0.1
     proxy-agent: 8.0.2
     tinyglobby: 0.2.17
-    undici: 7.29.1
+    undici: 7.30.1
     url-join: 5.0.0
     verkit: 0.5.0
     wildcard-match: 5.1.6
   bin:
     release-it: bin/release-it.js
-  checksum: 80263d5bc95f5c0a7a64c7832bec99cd6725cc743b8980d0834a07e6e25fad5d15b3325a6ef7b2216835385489ed39b6955bc68577eeab0bae7545a3a73c49ff
+  checksum: 00d5a9470e1e3053e5c1305131d1417a798d66a2f2b57f55d5910f4db1e9cf36e7899f3f81c198caa61dc4bc485c6d9fa929a62a31e157e9600477750493b946
   languageName: node
   linkType: hard
 
@@ -5510,10 +5510,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:7.29.1":
-  version: 7.29.1
-  resolution: "undici@npm:7.29.1"
-  checksum: 1e78f8920a92e60f1cb1489dac1066424e5afcbd27131638389731c7ad53dbfa6c6f3a77c335f9607cce80a4ca273c38a6d7316f0041ce37a3f51364c6531296
+"undici@npm:7.30.1":
+  version: 7.30.1
+  resolution: "undici@npm:7.30.1"
+  checksum: 690eac72898071c9a2d100c7653dc4fa90b70666877a7a3a0c264a96e3ebe6c2110ce3e89bcd4ecdd635db6871355e64992d088adcc473ee59bd2b92119ce28b
   languageName: node
   linkType: hard
 
