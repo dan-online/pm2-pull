@@ -4283,7 +4283,7 @@ __metadata:
     "@types/pmx": ./src/@types/pmx
     husky: ^9.1.7
     lint-staged: ^17.6.0
-    pm2: ^7.1.1
+    pm2: ^7.1.2
     pmx: ^1.6.8
     release-it: ^21.1.2
     rimraf: ^6.1.3
@@ -4293,9 +4293,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"pm2@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "pm2@npm:7.1.1"
+"pm2@npm:^7.1.2":
+  version: 7.1.2
+  resolution: "pm2@npm:7.1.2"
   dependencies:
     "@pm2/js-api": 0.8.1
     "@pm2/pm2-version-check": 1.0.4
@@ -4331,7 +4331,7 @@ __metadata:
     pm2-dev: bin/pm2-dev
     pm2-docker: bin/pm2-docker
     pm2-runtime: bin/pm2-runtime
-  checksum: 1d3a7a633299c4624d798df183558422604af5107292e07cf514169e7c10dbb57611d06902fab69989b6ade655610dded8c133deb739fca514c1ca2d3d688e4b
+  checksum: 095efde61c32f1799e452941e9a537d621befea899e63286d3b6a2bb19ba106ee05447041a488b615a4b9b7da0546694d25e276cb7a939574536e184fcea5dbe
   languageName: node
   linkType: hard
 
